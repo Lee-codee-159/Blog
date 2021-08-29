@@ -1,0 +1,57 @@
+
+<html>
+  <head>
+    <title>MobileNet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <center>
+      <div class="col-xs-12 heading">
+        <h1>Image identification<img src="logo.gif"></h1>
+      </div>
+      <div class="col-sm-6 col-xs-12 heading_2">
+        <label>Camera - </label>
+        <div id="webcam"></div>
+        <button class="btn btn-success" onclick="capture();">Capture Image</button>
+      </div>
+      <div class="col-sm-6 col-xs-12 capture">
+        <label>Webcam Capture</label>
+        <div id="captured_image">
+          
+        </div>
+        <button onclick="capture_button();" class="btn btn-warning">Identify</button>
+
+      </div>
+      
+    </center>
+<div class="col-xs-12 snapshot">
+  <h3 class="col-sm-6 col-xs-12"><img src="blub.gif"><span id="object_result"></span></h3>
+
+</div>
+<div class="mobilenet">Developed by Lingaa</div>
+    
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+

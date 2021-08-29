@@ -1,0 +1,82 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+    background-color: greenyellow;
+}
+.heading{
+    background-color: white;
+}
+.heading img {
+    width:100px;
+}
+.heading_2{
+    background-color: navy;
+    padding: 15px;
+    margin-top: 17px;
+    border: 2px lightcoral dashed;
+}
+.heading_2 label{
+    width: 350px;
+    padding: 10px;
+    margin-bottom: 0px;
+    box-shadow: 5px 8px 17px silver;
+    color: greenyellow;
+}
+#webcam{
+    border: 2px grey dotted;
+    width: 350px;
+    height: 300px;
+    box-shadow: 5px 8px 17px black;
+}
+.heading_2 button{
+    width: 350px;
+    font-size: 15px;
+    border: 5px maroon dashed;
+}
+.capture{
+    background-color: blue;
+    padding: 15px;
+    margin-top: 17px;
+    border: 2px chartreuse dashed;
+}
+.capture label{
+    width: 350px;
+    padding: 10px;
+    margin-bottom: 0px;
+    box-shadow: 5px 8px 17px gold;
+    color: greenyellow;
+}
+#captured_image{
+    border: 2px gainsboro dotted;
+    width: 350px;
+    height: 300px;
+    box-shadow: 5px 8px 17px grey;
+}
+.capture button{
+    width: 350px;
+    font-size: 17px;
+    border: 5px red dashed;
+}
+.snapshot{
+    margin-bottom: 45px;
+}
+.snapshot h3{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aquamarine;
+    border: 2px azure dashed;
+    padding: 7px;
+    border-radius: 12px;
+}
+.snapshot img{
+    width: 76px;
+}
+.mobilenet{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color:black;
+    text-align: center;
+    border: 2px dimgrey double;
+    background-color: chartreuse;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
